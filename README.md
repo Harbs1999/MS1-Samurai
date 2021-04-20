@@ -1,45 +1,36 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Milestone Project One: Samurai
+------
+This is my 1st milestone project for my Code Institute Diploma in Software Development. 
+The aim for this right now is to create a static site promoting a band called **Samurai**.
+The band is from the game **Cyberpunk 2077** by the developers *CD Projekt Red*, and the site is largely designed around the band's theme.
+## UX
+------
+### User Stories:
+* I am an avid listener of **Samurai**, I'm looking for tour dates so that I can go to one of their shows.
+* I have heard about the band **Samurai** and have heard some of their music, but am looking to learn more about the band itself.
+* I have never heard a **Samurai** song before, I am looking to listen to one of their songs to get a feel for their music.
+* I am an employee of a record label, I am looking for a contact page so that we can talk about signing them to our label.
+### Design
+[A wireframe of my website made in Balsamiq Wireframes](file:///C:/Users/jakel/OneDrive/Documents/Milestone%20Project%201%20(Samurai).pdf)
+## Features
+------
+### Existing Features:
 
-Welcome USER_NAME,
+### Features Left to Implement:
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+## Technologies Used
+------
 
-## Gitpod Reminders
+## Testing
+------
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Deployment
+------
 
-`python3 -m http.server`
+## Credits
+------
+### Content
 
-A blue button should appear to click: _Make Public_,
+### Media
 
-Another blue button should appear to click: _Open Browser_.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-## Updates Since The Instructional Video
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
----
-
-Happy coding!
+### Acknowledgments
