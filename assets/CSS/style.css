@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Titillium+Web:wght@300&display=swap');
+
+/*-------------------------- Colors */
+
+body {
+    font-family: Poppins, sans-serif;
+    color: #fafafa;
+    background-color: black;
+}
+
+header {
+    background-color: rgba(51, 51, 51, 0.5);
+}
+
+/*-------------------------- Header */
+
+header {
+    margin: 0;
+}
+
+.logo {
+    background: url("../images/Samurai_Logo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 120px;
+    margin: 0px;
+    padding: 80px;
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    float: left;
+}
+
+h1 {
+    font-family: 'Titillium Web', 'sans-serif';
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #E04000;
+    font-size: 75px;
+    padding: 50px 0px 50px 25px;
+}
+
+    /*-------------------------- Animation */
+
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
