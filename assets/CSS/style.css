@@ -3,16 +3,24 @@
 /*-------------------------- Colors */
 
 body {
-    font-family: Poppins, sans-serif;
-    color: #fafafa;
-    background-color: black;
+  font-family: Poppins, sans-serif;
+  color: #fafafa;
+  background-color: black;
 }
 
 .header-background {
-    background-color: rgba(51, 51, 51, 0.5);
+  background-color: rgba(51, 51, 51, 0.5);
 }
 
 .title {
+  color: #E04000;
+}
+
+#nav li {
+  border-color: #212121;
+}
+
+.nav-item a{
   color: #E04000;
 }
 
@@ -20,51 +28,97 @@ body {
 
 
 .header-background {
-    min-height: 120px;
-    margin: 0;
-    position: relative;
+  min-height: 120px;
+  margin: 0;
+  position: relative;
 }
 
 .logo {
-    background: url("../images/Samurai_Logo.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100px;
-    margin: 0;
-    padding-top: 110px;
-    animation: fadeIn 3s;
-    -webkit-animation: fadeIn 3s;
-    -moz-animation: fadeIn 3s;
+  background: url("../images/Samurai_Logo.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100px;
+  margin: 0;
+  padding-top: 110px;
+  animation: fadeIn 3s;
+  -webkit-animation: fadeIn 3s;
+  -moz-animation: fadeIn 3s;
 }
 
 h1 {
-    font-family: 'Titillium Web', 'sans-serif';
-    text-transform: uppercase;
-    font-weight: 700;
-    letter-spacing: 2px;
-    margin: 0;
-    font-size: 350%;
-    padding: 20px 0 0 0;
+  font-family: 'Titillium Web', 'sans-serif';
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 5px;
+  margin: 10px;
+  font-size: 3em;
+  padding: 25px 0 0 0;
+  text-align: center;
+}
+
+.title:hover {
+  text-decoration: none;
+  color: #ad3404;
+}
+
+.nav-item{
+  font-size: 20px;
+  text-align: center;
+  border-style: outset;
+  border-width: 5px;
+  border-radius: 20px;
+  border-right: 20px;
+  border-left: 20px;
+  padding: 10px 0 10px 0;
+}
+
+#nav li {
+  margin: 2vw 1vw 2vw 1vw;
+}
+
+.nav-item span {
+  letter-spacing: 2px;
+}
+
+.nav-item a:hover {
+  text-decoration: none;
+  color: #ad3404;
+}
+
+.list-inline-item:not(:last-child) {
+  margin: 0;
+}
+
+/*-------------------------- Animation */
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
   }
 
-    .title:hover {
-      text-decoration: none;
-      color: #ad3404;
-    }
+  100% {
+    opacity: 1;
+  }
+}
 
-    /*-------------------------- Animation */
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
 
-  @keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
+  100% {
+    opacity: 1;
   }
-  
-  @-moz-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
   }
-  
-  @-webkit-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
+
+  100% {
+    opacity: 1;
   }
+}
+
+/*-------------------------- Media queries */
