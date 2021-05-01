@@ -6,9 +6,10 @@ body {
   font-family: Poppins, sans-serif;
   color: #fafafa;
   background-color: black;
+  min-height: 100vh;
 }
 
-.header-background, footer {
+.header-background{
   background-color: rgba(51, 51, 51, 0.5);
 }
 
@@ -91,10 +92,26 @@ h1 {
   margin: 0;
 }
 
+/*-------------------------- Hero Image */
+
+#hero-outer {
+  height: 800px;
+  width: 100%;
+  margin: 0 0 100px 0;
+}
+
+#hero-image {
+  height: 800px;
+  width: 100%;
+  background: url("../images/chippinin_albumcover_heroimage.jpg") no-repeat center center;
+  background-size: cover;
+}
+
 /*-------------------------- Footer */
 
 footer {
-  height: 30vh;
+  background-color: rgba(51, 51, 51, 0.5);
+  height: 150px;
 }
 
 .social-links, #copyright {
@@ -103,9 +120,13 @@ footer {
 
 .social-links i {
   font-size: 150%;
-  margin: 0;
-  padding: 6%;
+  margin: 1%;
+  padding: 20px 96px 20px 96px;
   color: #E04000; 
+}
+
+.social-links i:hover {
+  color: #ad3404;
 }
 
 .social-links li {
