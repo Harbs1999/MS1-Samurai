@@ -42,9 +42,6 @@ body {
   background-size: 100px;
   margin: 0;
   padding-top: 110px;
-  animation: fadeIn 3s;
-  -webkit-animation: fadeIn 3s;
-  -moz-animation: fadeIn 3s;
 }
 
 h1 {
@@ -97,7 +94,8 @@ h1 {
 #hero-outer {
   height: 800px;
   width: 100%;
-  margin: 0 0 100px 0;
+  overflow: hidden;
+  position: relative;
 }
 
 #hero-image {
@@ -105,6 +103,48 @@ h1 {
   width: 100%;
   background: url("../images/chippinin_albumcover_heroimage.jpg") no-repeat center center;
   background-size: cover;
+
+  animation-name: heroimage-zoomout;
+  animation-duration: 10s;
+  animation-fill-mode: forwards;
+}
+
+#cover-text, #cover-text h2 {
+  color: #fafafa;
+}
+
+#cover-text {
+  font-size: 130%;
+  font-family: 'Titillium Web', 'sans-serif';
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: center;
+
+  width: 500px;
+  height: 250px;
+
+  padding-top: 50px;
+
+  background-color: rgba(51, 51, 51, 0.9);
+
+  bottom: 10px;
+  right: 3%;
+
+  position: absolute;
+}
+
+.buy-now {
+  font-family: Poppins, sans-serif;
+  font-weight: 700;
+
+  margin-top: 50px;
+  
+  padding-bottom: 50px;
+
+  width: 200px;
+  height: 50px;
+
+  font-size: 20px;
 }
 
 /*-------------------------- Footer */
@@ -118,10 +158,17 @@ footer {
   text-align: center;
 }
 
+#copyright {
+  padding-top: 0.8rem;
+}
+
 .social-links i {
   font-size: 150%;
   margin: 1%;
-  padding: 20px 96px 20px 96px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
   color: #E04000; 
 }
 
@@ -135,33 +182,11 @@ footer {
 
 /*-------------------------- Animation */
 
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
+@keyframes heroimage-zoomout {
+  from{
+    transform: scale(1.1);
   }
-
-  100% {
-    opacity: 1;
-  }
-}
-
-@-moz-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
+  to{
+    transform: scale(1);
   }
 }
-
-@-webkit-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-

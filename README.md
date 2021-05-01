@@ -18,7 +18,7 @@ The band is from the game **Cyberpunk 2077** by the developers *CD Projekt Red*,
 ## Technologies Used
 
 ## Testing
-
+* Had an animation for both the logo and the hero image but found there was too much happening on the screen at once so changed to just the hero image.
 ## Deployment
 
 ## Credits
