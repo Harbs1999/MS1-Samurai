@@ -137,13 +137,33 @@ h1 {
   font-family: Poppins, sans-serif;
   font-weight: 700;
   font-size: 20px;
-
+  
   margin-top: 50px;
   
   padding-bottom: 50px;
 
   width: 200px;
   height: 50px;
+}
+
+/*-------------------------- Music Player */
+.music-player-outer {
+    margin: 75px 0 50px 0;
+    width: 100%;
+    text-align: center;
+}
+
+iframe {
+  height: 250px;
+  width: 400px;
+  display: block;
+  margin: 0 auto;
+}
+
+.music-player-outer h3 {
+  margin-bottom: 30px;
+  font-size: 150%;
+  text-align: center;
 }
 
 /*-------------------------- Footer */

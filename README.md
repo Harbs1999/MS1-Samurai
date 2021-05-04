@@ -14,7 +14,7 @@ The band is from the game **Cyberpunk 2077** by the developers *CD Projekt Red*,
 ### Existing Features:
 
 ### Features Left to Implement:
-
+* Music player plays a random song from the newest album.
 ## Technologies Used
 
 ## Testing
