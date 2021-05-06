@@ -190,7 +190,9 @@ iframe {
   text-align: center;
   width: 33%;
   display: inline-block;
-  padding-top: 400px;
+  padding-top: 300px;
+  font-size: 130%;
+  font-weight: 500;
 }
 
 #right-pic {
@@ -201,8 +203,6 @@ iframe {
   float: right;
   width: 33%;
   height: 300px;
-  /* top: 600px;
-  left: 75%; */
 }
 
 
