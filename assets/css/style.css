@@ -20,8 +20,16 @@ body {
   border-color: #212121;
 }
 
+#nav li:hover {
+  background-color: #fafafa;
+}
+
 .nav-item a{
   color: #E04000;
+}
+
+.contact-us-section h2, label {
+  color: black;
 }
 
 
@@ -109,7 +117,7 @@ h1 {
 }
 
 #cover-text, #cover-text h2 {
-  color: #fafafa;
+  color: black;
 }
 
 #cover-text {
@@ -124,7 +132,7 @@ h1 {
 
   padding-top: 50px;
 
-  background-color: rgba(51, 51, 51, 0.50);
+  background-color: rgba(255, 254, 254, 0.90);
 
   bottom: 10px;
   right: 3%;
@@ -154,7 +162,7 @@ h1 {
 
 iframe {
   height: 250px;
-  width: 400px;
+  width: 300px;
   display: block;
   margin: 0 auto;
 }
@@ -168,7 +176,7 @@ iframe {
 /*-------------------------- Band Intro */
 
 #band-intro {
-  height: 800px;
+  min-height: calc(100vh - 370px);
 }
 
 #band-intro h3 {
@@ -230,9 +238,13 @@ iframe {
 
 /*-------------------------- Meet The Band */
 
+.bio-section {
+  min-height: calc(100vh - 370px);
+}
+
 #johnny-image {
-  background: url("../images/johnny-image.png") no-repeat;
-  margin: 0;
+  background: url("../images/johnny-image.png") no-repeat center center;
+  background-size: contain;
 }
 
 /*-------------------------- Contact Us */
@@ -242,7 +254,9 @@ iframe {
   background-size: cover;
   clear: both;
   height: 900px;
-  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .contact-us h2 {
@@ -253,12 +267,8 @@ iframe {
 .contact-us {
   max-width: 400px;
   height: 550px;
-  background-color: rgba(51, 51, 51, 0.75);
+  background-color: rgba(255, 254, 254, 0.90);
   padding: 30px;
-  margin: -225px -200px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
 }
 
 .text-input {
@@ -301,7 +311,6 @@ footer {
 
 .social-links i {
   font-size: 160%;
-  margin: 2%;
   padding: 2%;
   color: #E04000; 
 }
