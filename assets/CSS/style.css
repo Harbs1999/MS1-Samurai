@@ -231,7 +231,7 @@ iframe {
 /*-------------------------- Meet The Band */
 
 #johnny-image {
-  background: url("../images/johnny-image.png") no-repeat center center;
+  background: url("../images/johnny-image.png") no-repeat;
   margin: 0;
 }
 
