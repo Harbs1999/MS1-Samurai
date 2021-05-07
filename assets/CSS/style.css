@@ -228,6 +228,13 @@ iframe {
   text-align: center;
 }
 
+/*-------------------------- Meet The Band */
+
+#johnny-image {
+  background: url("../images/johnny-image.png") no-repeat center center;
+  margin: 0;
+}
+
 /*-------------------------- Contact Us */
 
 .contact-us-section {
