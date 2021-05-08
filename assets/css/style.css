@@ -10,6 +10,7 @@ body {
 
 .header-background{
   background-color: rgba(51, 51, 51, 0.5);
+  padding: 0;
 }
 
 .title {
@@ -78,8 +79,13 @@ h1 {
   padding: 10px 0 10px 0;
 }
 
+.nav-item a {
+  width: 100%;
+  height: 100%;
+}
+
 #nav li {
-  margin: 1.5vw 1vw 1.5vw 1vw;
+  margin: 1.5vw 0 1.5vw 0;
 }
 
 .nav-item span {
@@ -176,41 +182,32 @@ iframe {
 /*-------------------------- Band Intro */
 
 #band-intro {
-  min-height: calc(100vh - 370px);
+  margin-bottom: 50px;
 }
 
 #band-intro h3 {
+  margin: 100px 0 50px 0;
   text-align: center;
-  
 }
 
 #left-pic {
-  background: url("../images/theballadof-buck-ravers-cover.jpg") no-repeat;
+  background: url("../images/never-fade-away-cover.jpg") no-repeat;
   background-size: contain;
+  background-position: center;
   /* background-position: 50px 50px; */
-  margin-top: 50px;
-  float: left;
-  width: 33%;
-  height: 300px;
+  /* margin-top: 50px; */
+  height: 250px;
+  width: 100%;
+  padding: 0;
+  margin: 0;
 }
 
 #center-text {
   text-align: center;
-  width: 33%;
-  display: inline-block;
-  padding-top: 300px;
+  margin-bottom: 0px auto;
+  padding-top: 75px;
   font-size: 130%;
   font-weight: 500;
-}
-
-#right-pic {
-  background: url("../images/never-fade-away-cover.jpg") no-repeat;
-  background-size: contain;
-  background-position: right;
-  margin-top: 400px;
-  float: right;
-  width: 33%;
-  height: 300px;
 }
 
 /*-------------------------- Shows */
@@ -399,11 +396,22 @@ footer {
 
 @media only screen and (max-width: 600px) {
   #hero-image {
-    background: url("../images/chippinin-heroimage-mobile.png") no-repeat;
+    background: url("../images/chippinin-heroimage-mobile.png") no-repeat center center;
     background-size: cover;
-    width: 100%;
+    /* width: 100%; */
+  }
+  #cover-text {
+    right: 50px;
+    width: 70%;
+    height: 300px;
   }
 }
+
+@media only screen and (min-width:1025px) { 
+  #nav li {
+    margin-right: 50px;
+  }
+ }
 
 /*-------------------------- Animation */
 
