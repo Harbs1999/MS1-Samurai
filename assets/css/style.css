@@ -216,15 +216,24 @@ iframe {
 /*-------------------------- Shows */
 
 #shows {
-  margin: 50px 0 50px 0;
+  background: url("../images/johnny-singing-bg.jpg") no-repeat center center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 #shows > h2 {
   text-align: center;
+  padding: 50px 0 50px 0;
+  font-size: 3rem;
+  color: black;
+  font-weight: 600;
 }
 
 .card {
-  margin: 30px auto;
+  margin: 30px 0 30px 0;
 }
 
 .card h4 {
@@ -234,6 +243,11 @@ iframe {
 .card h4, p {
   color: black;
   text-align: center;
+}
+
+#shows .buy-now {
+  margin-bottom: 30px;
+  width: 290px;
 }
 
 /*-------------------------- Meet The Band */
