@@ -63,6 +63,8 @@ The following is how I deployed my project.
 ## Credits
 ### Content
 * The icons in the footer were taken from [Font Awesome](https://fontawesome.com/).
+* The code for the cards used on the shows page were taken from bootstrap documentation.
+* The code for buy tickets and buy album buttons were taken from bootstrap documentation.
 ### Media
 * Logo taken from [Logo](https://www.google.co.uk/url?sa=i&url=https%3A%2F%2Fwww.pngitem.com%2Fmiddle%2FiiJwiT_cyberpunk-2077-samurai-sticker-hd-png-download%2F&psig=AOvVaw0VuRyr9oDaxHLsE4ltRuH6&ust=1620535882151000&source=images&cd=vfe&ved=2ahUKEwjPqYrepLnwAhV5EGMBHdh0AnwQjhx6BAgAEBI)
 * Image of Johnny Silverhand [Johnny](https://cyberpunk2077.wiki.fextralife.com/file/Cyberpunk-2077/johnny-silverhand-npc-cyberpunk-2077-wiki-guide.png)
