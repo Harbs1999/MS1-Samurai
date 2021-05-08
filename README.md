@@ -37,6 +37,15 @@ This feature gives people a way to get in touch with the band. People give the r
 * A feature that would be a nice implementation would be a forum for fans to interact and engage on specific topics such as different songs and genres.
 * Another feature that will be added will be a gallery to show different photos and videos from tours and music videos. Some behind the scenes are a good way to engage fans.
 * An extra feature that will be added will be a map to go along with the locations on the shows page, this would be helpful for fans to find how close the shows are.
+## Deployment
+This project was developed in the gitpod IDE and pushed to a repository on GitHub
+The following is how I deployed my project.
+1. Log into GitHub
+2. From the list of repositories, click "Harbs1999/MS1-Samurai".
+3. Click on settings out of the tabs above.
+4. Navigate to "pages" tab on left.
+5. On the dropdown menu labelled "none", choose "master" branch.
+6. Now refresh and it should say if your site has been published in green.
 ## Technologies Used
 * Bootstrap
 * FontAwesome
@@ -47,6 +56,10 @@ This feature gives people a way to get in touch with the band. People give the r
 * There were 2 images in the "About The Band" section, all positioned diagonally but it was all to close and it did not translate to mobile. So instead I used bootstrap and had 1 image on the left and the about me writing on the right.
 * I tested all links on the page and they all worked.
 * I also tested the form, I tried to submit without typing anything in an input field to ensure all of the required attributes work.
+* The bio at the bottom of the home page was overlapping the footer when in mobile view, I was helped by my mentor with this and used the code "min-height: calc(100vh - 370px);" to fix it.
+* There was trouble with the navigation elements overlapping when going between tablet size and laptop/desktop size. I fixed this by changing the col-md to col-lg.
+## Bugs that Need Fixing
+* The link for the homepage on the samurai title is wider than the title itself.
 ## Credits
 ### Content
 * The icons in the footer were taken from [Font Awesome](https://fontawesome.com/).
