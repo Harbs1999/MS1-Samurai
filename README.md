@@ -19,6 +19,7 @@ The band is from the game **Cyberpunk 2077** by the developers *CD Projekt Red*,
 
 ## Testing
 * Had an animation for both the logo and the hero image but found there was too much happening on the screen at once so changed to just the hero image.
+* Bio page had a horizontal scroll bar so I added "overflow: hidden" to the section class.
 ## Deployment
 
 ## Credits

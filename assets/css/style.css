@@ -240,11 +240,65 @@ iframe {
 
 .bio-section {
   min-height: calc(100vh - 370px);
+  overflow: hidden;
+}
+
+.bio-section h2 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 75px;
+  font-size: 3rem;
+}
+
+.band-about-text {
+  margin-bottom: 30px;
+  font-size: 110%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.band-about-text strong {
+  color: #E04000;
+  font-size: x-large;
+}
+
+.mtb-image-spacing {
+  margin-bottom: 50px;
 }
 
 #johnny-image {
   background: url("../images/johnny-image.png") no-repeat center center;
   background-size: contain;
+  background-position: left;
+  height: 250px;
+}
+
+#kerry-image {
+  background: url("../images/kerry-image.png") no-repeat center center;
+  background-size: contain;
+  background-position: left;
+  height: 250px;
+}
+
+#nancy-image {
+  background: url("../images/nancy-image.png") no-repeat center center;
+  background-size: contain;
+  height: 250px;
+}
+
+#denny-image {
+  background: url("../images/denny-image.jpg") no-repeat center center;
+  background-size: contain;
+  height: 250px;
+}
+
+#henry-image {
+  background: url("../images/henry-image.png") no-repeat center center;
+  background-size: contain;
+  height: 250px;
 }
 
 /*-------------------------- Contact Us */
