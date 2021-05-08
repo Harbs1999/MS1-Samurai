@@ -17,22 +17,22 @@ The first feature is the header which includes the logo for my band and a naviga
 ![Website Header](https://github.com/Harbs1999/MS1-Samurai/blob/master/assets/README-images/navbar-screenshot.png "nav bar")
 
 The next feature is the hero image, here I have chosen one of Samurai's album covers and some cover text with a button telling the user to buy the album.
-![Website Hero Image](hero-image-screenshot.png "hero image")
+![Website Hero Image](https://github.com/Harbs1999/MS1-Samurai/blob/master/assets/README-images/hero-image-screenshot.png "hero image")
 
 This screenshot includes 2 features. The top feature is a music player, this plays a song by Samurai to give the user a sample of their music, perhaps gaining new fans this way.
-![Website Song Player and About the Band](song-n-abtme-screenshot.png "Website Song Player and About the Band")
+![Website Song Player and About the Band](https://github.com/Harbs1999/MS1-Samurai/blob/master/assets/README-images/song-n-abtme-screenshot.png "Website Song Player and About the Band")
 
 This is the footer feature, it includes 4 icons linking to band social media.
-![Website Footer](footer-screenshot.png "footer")
+![Website Footer](https://github.com/Harbs1999/MS1-Samurai/blob/master/assets/README-images/footer-screenshot.png "footer")
 
 This feature is shows. It shows tour dates and where they will be taking place. It also has a button at the bottom to buy tickets to the show.
-![Website Tour Dates](shows-screenshot.png "Shows")
+![Website Tour Dates](https://github.com/Harbs1999/MS1-Samurai/blob/master/assets/README-images/shows-screenshot.png "Shows")
 
 This feature gives fans information about the band members, this gives people a reason to become more invested in the band.
-![Website Bio](meet-the-band-screenshot.png "Meet the Band")
+![Website Bio](https://github.com/Harbs1999/MS1-Samurai/blob/master/assets/README-images/meet-the-band-screenshot.png "Meet the Band")
 
 This feature gives people a way to get in touch with the band. People give the reason they're contacting the band and they give an email so that the band can contact them back.
-![Website Contact Us](contact-us-screenshot.png "Contact Page")
+![Website Contact Us](https://github.com/Harbs1999/MS1-Samurai/blob/master/assets/README-images/contact-us-screenshot.png "Contact Page")
 ### Features Left to Implement:
 * A feature that would be a nice implementation would be a forum for fans to interact and engage on specific topics such as different songs and genres.
 * Another feature that will be added will be a gallery to show different photos and videos from tours and music videos. Some behind the scenes are a good way to engage fans.
