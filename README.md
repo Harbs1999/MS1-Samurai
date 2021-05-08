@@ -14,7 +14,7 @@ The band is from the game **Cyberpunk 2077** by the developers *CD Projekt Red*,
 ## Features
 ### Existing Features:
 The first feature is the header which includes the logo for my band and a navigation bar to navigate through my pages easily. 
-![Website Header](navbar-screenshot.png "nav bar")
+![Website Header](https://github.com/Harbs1999/MS1-Samurai/blob/master/assets/README-images/navbar-screenshot.png "nav bar")
 
 The next feature is the hero image, here I have chosen one of Samurai's album covers and some cover text with a button telling the user to buy the album.
 ![Website Hero Image](hero-image-screenshot.png "hero image")
