@@ -199,6 +199,7 @@ iframe {
     width: 300px;
     display: block;
     margin: 0 auto;
+    border: none;
 }
 
 .music-player-outer h3 {
