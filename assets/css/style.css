@@ -1,162 +1,190 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Titillium+Web:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Titillium+Web:wght@300&display=swap");
 
 /*-------------------------- Colors */
 
 body {
-  font-family: Poppins, sans-serif;
-  color: #fafafa;
-  background-color: black;
+    font-family: Poppins, sans-serif;
+    color: #fafafa;
+    background-color: black;
 }
 
-.header-background{
-  background-color: rgba(51, 51, 51, 0.5);
-  padding: 0;
+.header-background {
+    background-color: rgba(51, 51, 51, 0.5);
+    padding: 0;
 }
 
 .title {
-  color: #E04000;
+    color: #e04000;
+}
+
+.title:hover {
+  color: #ad3404;
 }
 
 #nav li {
-  border-color: #212121;
+    border-color: #212121;
 }
 
 #nav li:hover {
-  background-color: #fafafa;
+    background-color: #fafafa;
 }
 
-.nav-item a{
-  color: #E04000;
+.nav-item a {
+    color: #e04000;
 }
 
-.contact-us-section h2, label {
+.nav-item a:hover {
+  color: #ad3404;
+}
+
+#cover-text,
+#cover-text h2 {
+    color: black;
+}
+
+#shows > h2 {
   color: black;
+}
+
+.card h4,
+p {
+    color: black;
+}
+
+.band-about-text strong {
+  color: #e04000;
+}
+
+.contact-us-section h2,
+label {
+    color: black;
+}
+
+.social-links i {
+  color: #e04000;
+}
+
+.social-links i:hover {
+  color: #ad3404;
 }
 
 
 /*-------------------------- Header */
 
-
 .header-background {
-  min-height: 120px;
-  margin: 0;
-  position: relative;
+    min-height: 120px;
+    margin: 0;
+    position: relative;
 }
 
 .logo {
-  background: url("../images/samurai_Logo.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100px;
-  margin: 0;
-  padding-top: 110px;
+    background: url("../images/samurai_Logo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100px;
+    margin: 0;
+    padding-top: 110px;
 }
 
 h1 {
-  font-family: 'Titillium Web', 'sans-serif';
-  text-transform: uppercase;
-  font-weight: 700;
-  letter-spacing: 5px;
-  margin: 10px;
-  font-size: 3em;
-  padding: 25px 0 0 0;
-  text-align: center;
+    font-family: "Titillium Web", "sans-serif";
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 5px;
+    margin: 10px;
+    font-size: 3em;
+    padding: 25px 0 0 0;
+    text-align: center;
 }
 
 .title:hover {
-  text-decoration: none;
-  color: #ad3404;
+    text-decoration: none;
 }
 
-.nav-item{
-  font-size: 20px;
-  text-align: center;
-  border-style: ridge;
-  border-width: 5px;
-  border-radius: 20px;
-  border-right: 20px;
-  border-left: 20px;
-  padding: 10px 0 10px 0;
+.nav-item {
+    font-size: 20px;
+    text-align: center;
+    border-style: ridge;
+    border-width: 5px;
+    border-radius: 20px;
+    border-right: 20px;
+    border-left: 20px;
+    padding: 10px 0 10px 0;
 }
 
 .nav-item a {
-  width: 100%;
-  height: 100%;
+    width: 100%;
+    height: 100%;
 }
 
 #nav li {
-  margin: 1.5vw 0 1.5vw 0;
+    margin: 1.5vw 0 1.5vw 0;
 }
 
 .nav-item span {
-  letter-spacing: 2px;
-  text-transform: uppercase;
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
 
 .nav-item a:hover {
-  text-decoration: none;
-  color: #ad3404;
+    text-decoration: none;
 }
 
 .list-inline-item:not(:last-child) {
-  margin: 0;
+    margin: 0;
 }
 
 /*-------------------------- Hero Image */
 
 #hero-outer {
-  height: 900px;
-  width: 100%;
-  overflow: hidden;
-  position: relative;
+    height: 900px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
 }
 
 #hero-image {
-  height: 900px;
-  width: 100%;
-  background: url("../images/chippinin_albumcover_heroimage.jpg") no-repeat center center;
-  background-size: cover;
+    height: 900px;
+    width: 100%;
+    background: url("../images/chippinin_albumcover_heroimage.jpg") no-repeat center center;
+    background-size: cover;
 
-  animation-name: heroimage-zoomout;
-  animation-duration: 10s;
-  animation-fill-mode: forwards;
-}
-
-#cover-text, #cover-text h2 {
-  color: black;
+    animation-name: heroimage-zoomout;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
 }
 
 #cover-text {
-  font-size: 130%;
-  font-family: 'Titillium Web', 'sans-serif';
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  text-align: center;
+    font-size: 130%;
+    font-family: "Titillium Web", "sans-serif";
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
 
-  width: 500px;
-  height: 250px;
+    width: 500px;
+    height: 250px;
 
-  padding-top: 50px;
+    padding-top: 50px;
 
-  background-color: rgba(255, 254, 254, 0.90);
+    background-color: rgba(255, 254, 254, 0.9);
 
-  bottom: 10px;
-  right: 3%;
+    bottom: 10px;
+    right: 3%;
 
-  position: absolute;
+    position: absolute;
 }
 
 .buy-now {
-  font-family: Poppins, sans-serif;
-  font-weight: 700;
-  font-size: 20px;
-  
-  margin-top: 50px;
-  
-  padding-bottom: 50px;
+    font-family: Poppins, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
 
-  width: 200px;
-  height: 50px;
+    margin-top: 50px;
+
+    padding-bottom: 50px;
+
+    width: 200px;
+    height: 50px;
 }
 
 /*-------------------------- Music Player */
@@ -167,259 +195,250 @@ h1 {
 }
 
 iframe {
-  height: 250px;
-  width: 300px;
-  display: block;
-  margin: 0 auto;
+    height: 250px;
+    width: 300px;
+    display: block;
+    margin: 0 auto;
 }
 
 .music-player-outer h3 {
-  margin-bottom: 30px;
-  font-size: 150%;
-  text-align: center;
+    margin-bottom: 30px;
+    font-size: 150%;
+    text-align: center;
 }
 
 /*-------------------------- Band Intro */
 
 #band-intro {
-  margin-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 #band-intro h3 {
-  margin: 100px 0 50px 0;
-  text-align: center;
+    margin: 100px 0 50px 0;
+    text-align: center;
 }
 
 #left-pic {
-  background: url("../images/never-fade-away-cover.jpg") no-repeat;
-  background-size: contain;
-  background-position: center;
-  /* background-position: 50px 50px; */
-  /* margin-top: 50px; */
-  height: 250px;
-  width: 100%;
-  padding: 0;
-  margin: 0;
+    background: url("../images/never-fade-away-cover.jpg") no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 250px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
 }
 
 #center-text {
-  text-align: center;
-  margin-bottom: 0px auto;
-  padding-top: 75px;
-  font-size: 130%;
-  font-weight: 500;
+    text-align: center;
+    margin-bottom: 0px auto;
+    padding-top: 75px;
+    font-size: 130%;
+    font-weight: 500;
 }
 
 /*-------------------------- Shows */
 
 #shows {
-  background: url("../images/johnny-singing-bg.jpg") no-repeat center center;
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+    background: url("../images/johnny-singing-bg.jpg") no-repeat center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 #shows > h2 {
-  text-align: center;
-  padding: 50px 0 50px 0;
-  font-size: 3rem;
-  color: black;
-  font-weight: 600;
+    text-align: center;
+    padding: 50px 0 50px 0;
+    font-size: 3rem;
+    font-weight: 600;
 }
 
 .card {
-  margin: 30px 0 30px 0;
+    margin: 30px 0 30px 0;
 }
 
 .card h4 {
-  font-weight: 600;
+    font-weight: 600;
 }
 
-.card h4, p {
-  color: black;
-  text-align: center;
+.card h4,
+p {
+    text-align: center;
 }
 
 #shows .buy-now {
-  margin-bottom: 30px;
-  width: 290px;
+    margin-bottom: 30px;
+    width: 290px;
 }
 
 /*-------------------------- Meet The Band */
 
 .bio-section {
-  min-height: calc(100vh - 370px);
-  overflow: hidden;
+    min-height: calc(100vh - 370px);
+    overflow: hidden;
 }
 
 .bio-section h2 {
-  text-align: center;
-  margin-top: 50px;
-  margin-bottom: 75px;
-  font-size: 3rem;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 75px;
+    font-size: 3rem;
 }
 
 .band-about-text {
-  margin-bottom: 30px;
-  font-size: 110%;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
+    margin-bottom: 30px;
+    font-size: 110%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .band-about-text strong {
-  color: #E04000;
-  font-size: x-large;
+    font-size: x-large;
 }
 
 .mtb-image-spacing {
-  margin-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 #johnny-image {
-  background: url("../images/johnny-image.png") no-repeat center center;
-  background-size: contain;
-  background-position: left;
-  height: 250px;
+    background: url("../images/johnny-image.png") no-repeat center center;
+    background-size: contain;
+    background-position: left;
+    height: 250px;
 }
 
 #kerry-image {
-  background: url("../images/kerry-image.png") no-repeat center center;
-  background-size: contain;
-  background-position: left;
-  height: 250px;
+    background: url("../images/kerry-image.png") no-repeat center center;
+    background-size: contain;
+    background-position: left;
+    height: 250px;
 }
 
 #nancy-image {
-  background: url("../images/nancy-image.png") no-repeat center center;
-  background-size: contain;
-  height: 250px;
+    background: url("../images/nancy-image.png") no-repeat center center;
+    background-size: contain;
+    height: 250px;
 }
 
 #denny-image {
-  background: url("../images/denny-image.jpg") no-repeat center center;
-  background-size: contain;
-  height: 250px;
+    background: url("../images/denny-image.jpg") no-repeat center center;
+    background-size: contain;
+    height: 250px;
 }
 
 #henry-image {
-  background: url("../images/henry-image.png") no-repeat center center;
-  background-size: contain;
-  height: 250px;
+    background: url("../images/henry-image.png") no-repeat center center;
+    background-size: contain;
+    height: 250px;
 }
 
 /*-------------------------- Contact Us */
 
 .contact-us-section {
-  background: url("../images/lanterns-bg.jpg") no-repeat center center;
-  background-size: cover;
-  clear: both;
-  height: 900px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    background: url("../images/lanterns-bg.jpg") no-repeat center center;
+    background-size: cover;
+    clear: both;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .contact-us h2 {
-  text-align: center;
-  margin-bottom: 30px;
+    text-align: center;
+    margin-bottom: 30px;
 }
 
 .contact-us {
-  max-width: 400px;
-  height: 550px;
-  background-color: rgba(255, 254, 254, 0.90);
-  padding: 30px;
+    max-width: 400px;
+    height: 550px;
+    background-color: rgba(255, 254, 254, 0.9);
+    padding: 30px;
 }
 
 .text-input {
-  width: 100%;
-  margin-bottom: 30px;
+    width: 100%;
+    margin-bottom: 30px;
 }
 
 .text-input:focus {
-  border-color:#E04000;
-  border-style: solid;
-  border-width: 2px;
-  outline: none;
+    border-color: #e04000;
+    border-style: solid;
+    border-width: 2px;
+    outline: none;
 }
 
 textarea {
-  padding-bottom: 120px;
+    padding-bottom: 120px;
 }
 
 .submit-form {
-  text-align: center;
-  font-size: large;
-  font-weight: 600;
+    text-align: center;
+    font-size: large;
+    font-weight: 600;
 }
 
 .submit-form:hover {
-  background-color: black;
-  color: #fafafa;
+    background-color: black;
+    color: #fafafa;
 }
 
 /*-------------------------- Footer */
 
 footer {
-  background-color: rgba(51, 51, 51, 0.5);
-  min-height: 120px;
+    background-color: rgba(51, 51, 51, 0.5);
+    min-height: 120px;
 }
 
-.social-links, #copyright {
-  text-align: center;
+.social-links,
+#copyright {
+    text-align: center;
 }
 
 .social-links i {
-  font-size: 160%;
-  padding: 2%;
-  color: #E04000; 
+    font-size: 160%;
+    padding: 2%;
 }
 
 .social-links {
-  padding: 0;
-}
-
-.social-links i:hover {
-  color: #ad3404;
+    padding: 0;
 }
 
 .social-links li {
-  display: inline;
+    display: inline;
 }
 
 /*-------------------------- Media Queries */
 
 @media only screen and (max-width: 600px) {
-  #hero-image {
-    background: url("../images/chippinin-heroimage-mobile.png") no-repeat center center;
-    background-size: cover;
-    /* width: 100%; */
-  }
-  #cover-text {
-    right: 50px;
-    width: 70%;
-    height: 300px;
-  }
+    #hero-image {
+        background: url("../images/chippinin-heroimage-mobile.png") no-repeat center center;
+        background-size: cover;
+    }
+    #cover-text {
+        right: 50px;
+        width: 70%;
+        height: 300px;
+    }
 }
 
-@media only screen and (min-width:1025px) { 
-  #nav li {
-    margin-right: 50px;
-  }
- }
+@media only screen and (min-width: 1025px) {
+    #nav li {
+        margin-right: 50px;
+    }
+}
 
 /*-------------------------- Animation */
 
 @keyframes heroimage-zoomout {
-  from{
-    transform: scale(1.1);
-  }
-  to{
-    transform: scale(1);
-  }
+    from {
+        transform: scale(1.1);
+    }
+    to {
+        transform: scale(1);
+    }
 }
